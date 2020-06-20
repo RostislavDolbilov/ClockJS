@@ -1,0 +1,88 @@
+* {margin: 0; padding: 0;}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    color: rgba(11, 11, 11, 0.53);
+}
+
+div{
+    box-sizing: border-box
+}
+
+.header{
+     width: 100vw;
+     height: 13vh;
+ }
+
+.content{
+    width: 100vw;
+    height: 74vh;
+}
+
+.footer{
+    width: 100vw;
+    height: 13vh;
+}
+
+.centered{
+    position: absolute;
+    left: 50%; top:  50%;
+    transform: translate(-50%, -50%)
+}
+
+.paper_sheet {
+    padding: 2vh 2vh;
+    box-shadow: 0 0 20vh 0.03vh rgba(0,0,0,0.08),
+    0 0.5vh 1vh rgba(0,0,0,0.24);
+}
+
+.link{
+    position: absolute;
+    list-style:none;
+    text-align: center;
+    border: 0;
+    padding: 1vh 3vw;
+    font-size: 2.5vh;
+    min-width: 12vw;
+}
+.link a{
+    text-decoration:none;
+    text-align: center;
+    font-size: 2vh;
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+.but{
+    min-width: 11vw;
+    height: 5vh;
+    margin: 0 0 0 1vw;
+    padding: 1vh 1vw;
+    border: none;
+    background: none;
+    color: inherit;
+    vertical-align: middle;
+    position: relative;
+}
+
+input {
+    border-color: transparent;
+    outline: none;
+    padding: 1vmin 1vmax;
+    font-family: Verdana, serif;
+    font-size: 2.5vmin;
+    width: calc(100% - 1vw);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+table{
+    border-collapse: collapse;
+}
